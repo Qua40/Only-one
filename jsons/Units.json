@@ -1,12 +1,24 @@
 [
 	{
-		"name": "OnlyOne",
+		"name": "OnlyOne Lv1",
 		"unitType": "Magic",
+		"replaces": "Settler",
 		"movement": 2,
     "strength": 20,
     "rangedStrength": 12,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Can build [Land] improvements on tiles"],
 		"cost": 70
+    "attackSound": "arrow"
+	},
+	{
+		"name": "OnlyOne Lv2",
+		"unitType": "Magic",
+		"movement": 3,
+    "strength": 60,
+    "rangedStrength": 30,
+		"uniques": ["Can build [Land] improvements on tiles",
+		 	    "[3] free [Musketman] units appear <costs [3] [Mana]>"],
+		"cost": 200
     "attackSound": "arrow"
 	},
 ]
