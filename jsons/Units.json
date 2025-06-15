@@ -7,7 +7,10 @@
 		"movement": 2,
     "strength": 20,
     "rangedStrength": 12,
-		"uniques": ["Can build [Land] improvements on tiles"],
+		"uniques": ["Can build [Land] improvements on tiles",
+			    "Can upgrade to [OnlyOne Lv2] <if [The Oracle] is constructed by anybody>",
+			    "[1] free [Mage Lv1] units appear <costs [5] [Mana]>",
+			    "Never appears as a Barbarian unit"],
 		"cost": 70
     "attackSound": "arrow"
 	},
@@ -18,8 +21,23 @@
     "strength": 60,
     "rangedStrength": 30,
 		"uniques": ["Can build [Land] improvements on tiles",
-		 	    "[3] free [Musketman] units appear <costs [3] [Mana]>"],
+		 	    "[2] free [Mage Lv1] units appear <costs [5] [Mana]>",
+			    "Never appears as a Barbarian unit"],
 		"cost": 200
+    "attackSound": "arrow"
+	},
+		//Mages
+	{
+		"name": "Mage Lv1",
+		"unitType": "Magic",
+		"replaces": "Warrior",
+		"uniqueTo": "Legends in the Lore",
+		"movement": 2,
+    "strength": 6,
+    "rangedStrength": 9,
+		"uniques": ["[2] free [Mage] units appear <costs [5] [Mana]>",
+			    "Earn [15]% of the damage done to [Military] units as [Mana]"],
+		"cost": 50
     "attackSound": "arrow"
 	},
 ]
