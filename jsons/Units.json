@@ -3,6 +3,7 @@
 		"name": "OnlyOne Lv1",
 		"unitType": "Magic",
 		"replaces": "Settler",
+		"uniqueTo": "Legends in the Lore",
 		"movement": 2,
     "strength": 20,
     "rangedStrength": 12,
