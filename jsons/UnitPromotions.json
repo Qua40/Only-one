@@ -22,7 +22,12 @@
 	},
 	{
 		"name": "Mana Collect",
-		"uniques": ["Earn [33]% of killed [Wounded] unit's [Cost] as [Mana]"],
+		"uniques": ["Earn [16]% of killed [Wounded] unit's [Cost] as [Mana]"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Magic"],
+	},
+	{
+		"name": "Self-Supply I",
+		"uniques": ["[+1] Unit Supply","[+1] units cost no maintenance"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Magic"],
 	},
 	//unique promotions
