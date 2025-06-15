@@ -1,0 +1,12 @@
+[
+	{
+		"name": "OnlyOne",
+		"unitType": "Magic",
+		"movement": 2,
+    "strength": 20,
+    "rangedStrength": 12,
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"cost": 70
+    "attackSound": "arrow"
+	},
+]
