@@ -5,11 +5,11 @@
 		"replaces": "Settler",
 		"uniqueTo": "Legends in the Lore",
 		"movement": 2,
-    "strength": 20,
-    "rangedStrength": 12,
+    "strength": 15,
+    "rangedStrength": 10,
 		"uniques": ["Can build [Land] improvements on tiles",
 			    "Can upgrade to [OnlyOne Lv2] <if [The Oracle] is constructed by anybody>",
-			    "[1] free [Mage Lv1] units appear <costs [5] [Mana]>",
+			    "[1] free [Mage Lv1] units appear <costs [15] [Mana]>",
 			    "Never appears as a Barbarian unit"],
 		"cost": 70
     "attackSound": "arrow"
@@ -18,13 +18,24 @@
 		"name": "OnlyOne Lv2",
 		"unitType": "Magic",
 		"movement": 3,
-    "strength": 60,
-    "rangedStrength": 30,
+		"strength": 24,
+		"rangedStrength": 18,
 		"uniques": ["Can build [Land] improvements on tiles",
-		 	    "[2] free [Mage Lv1] units appear <costs [5] [Mana]>",
+		 	    "[2] free [Mage Lv1] units appear <costs [15] [Mana]>",
 			    "Never appears as a Barbarian unit"],
 		"cost": 200
-    "attackSound": "arrow"
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Crystal",
+		"unitType": "Civilian",
+		"uniqueTo": "Legends in the Lore",
+		"movement": 0,
+		"strength": 0,
+		"uniques": ["Founds a new puppet city <once>",
+			    "Unbuildable",
+			    "Never appears as a Barbarian unit"],
+		"cost": 200
 	},
 		//Mages
 	{
@@ -34,8 +45,8 @@
 		"uniqueTo": "Legends in the Lore",
 		"movement": 2,
     "strength": 6,
-    "rangedStrength": 9,
-		"uniques": ["[+20]% Strength when stacked with [Wounded]",
+    "rangedStrength": 7,
+		"uniques": ["[-20]% Strength when stacked with [Wounded]",
 			    "Earn [15]% of the damage done to [Military] units as [Mana]"],
 		"cost": 50
     "attackSound": "arrow"
