@@ -13,7 +13,7 @@
 	},
 	{
 		"name": "Hack and Slash",
-		"uniques": ["[-60]% Strength","[+3] additional attacks per turn","[+6] Movement]","[This Unit] heals [3] HP <upon damaging a [Wounded] unit>","Must set up to ranged attack","[This Unit] loses the [Hack and Slash] status <for [10] movement>"]
+		"uniques": ["[-60]% Strength","[+3] additional attacks per turn","[6] Movement]","[This Unit] heals [3] HP <upon damaging a [Wounded] unit>","Must set up to ranged attack","[This Unit] loses the [Hack and Slash] status <for [10] movement>"]
 	},
 	{
 		"name": "XP +",
