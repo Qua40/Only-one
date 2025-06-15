@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Only",
+		"uniques": ["Uncapturable","[+12] HP when healing"]
+	},
+	{
+		"name": "Crossroad Armor",
+		"uniques": ["[+150]% Strength <vs cities> <when defending>","[+33]% Strength <vs [Military] units> <when defending>","Double movement in [All Road]", "[+50]% Strength <when fighting in [All Road] tiles>"]
+	},
+	{
+		"name": "Land King",
+		"uniques": ["Heals [20] damage if it kills a unit", "[This Unit] gains the [Hack and Slash] promotion <requires [10] movement>"]
+	},
+	{
+		"name": "Hack and Slash",
+		"uniques": ["[-60]% Strength","[+3] additional attacks per turn","[+6] Movement]","[This Unit] heals [3] HP <upon damaging a [Wounded] unit>","Must set up to ranged attack","[This Unit] loses the [Hack and Slash] status <for [10] movement>"]
+	},
+	{
+		"name": "XP +",
+		"uniques": ["[+50]% XP gained from combat"]
+	},
+	{
+		"name": "Mana Collect",
+		"uniques": ["Earn [33]% of killed [Wounded] unit's [Cost] as [Mana]"]
+	}
+]
