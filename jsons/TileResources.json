@@ -2,6 +2,7 @@
 
 	{
 		"name": "Mana",
+		"resourceType": "Strategic",
 		"uniques": ["Stockpiled"]
 	}
 ]
