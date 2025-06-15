@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Legends in the Lores",
+		"name": "Legends in the Lore",
 		"leaderName": "Mysterious Beings",
 		"adjective": ["Legends"],
 		"preferredVictoryType": "Domination",
@@ -8,7 +8,7 @@
 		
 		"startIntroPart1": "Oh my, why is this poor human wandering around? He dosen't have a place for him?",
 		"startIntroPart2": "He is different, different from all of them. As time flies, he will be the strongest ever existed.",
-    "startIntroPart3": "Is that so? well, we will see about that.",
+    		"startIntroPart3": "Is that so? well, we will see about that.",
 		
 		"declaringWar": "Come on, give me some surprises!",
 		"attacked": "You will fall, just like others.",
