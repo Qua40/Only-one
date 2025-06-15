@@ -71,7 +71,7 @@
 	{
 		"name": "Charge atk I",
 		"prerequisites": ["Study II"],
-		"uniques": ["[+50]% Strength <when attacking> <costs [3] [Mana]> <for [3] turns>"],
+		"uniques": ["[+20]% Strength <when attacking> <every [3] turns>"],
 		"unitTypes": ["Magic"]
 	},
 
