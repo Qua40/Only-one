@@ -35,7 +35,7 @@
 		"movement": 2,
     "strength": 6,
     "rangedStrength": 9,
-		"uniques": ["[2] free [Mage] units appear <costs [5] [Mana]>",
+		"uniques": ["[+20]% Strength when stacked with [Wounded]",
 			    "Earn [15]% of the damage done to [Military] units as [Mana]"],
 		"cost": 50
     "attackSound": "arrow"
