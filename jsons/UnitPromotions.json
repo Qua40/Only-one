@@ -13,14 +13,66 @@
 	},
 	{
 		"name": "Hack and Slash",
-		"uniques": ["[-60]% Strength","[+3] additional attacks per turn","[6] Movement","[This Unit] heals [3] HP <upon damaging a [Wounded] unit>","[This Unit] loses the [Hack and Slash] status <for [10] turns>"]
+		"uniques": ["[-60]% Strength <when defending>","[+3] additional attacks per turn","[6] Movement","[This Unit] heals [3] HP <upon damaging a [Wounded] unit>","[This Unit] loses the [Hack and Slash] status <for [10] turns>"]
 	},
 	{
 		"name": "XP +",
-		"uniques": ["[+50]% XP gained from combat"]
+		"uniques": ["[+50]% XP gained from combat"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Magic"],
 	},
 	{
 		"name": "Mana Collect",
-		"uniques": ["Earn [33]% of killed [Wounded] unit's [Cost] as [Mana]"]
-	}
+		"uniques": ["Earn [33]% of killed [Wounded] unit's [Cost] as [Mana]"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Magic"],
+	},
+	//unique promotions
+	{
+		"name": "Close Scars",
+		"uniques": ["[This Unit] heals [8] HP <for [20] turns>","Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Magic"],
+		"innerColor": [59,235,43],
+		"outerColor": [13,152,28]
+	},
+	{
+		"name": "Study I",
+		"uniques": ["[+15]% Strength <when attacking>","[+50]% XP gained from combat"],
+		"unitTypes": ["Magic"]
+	},
+	{
+		"name": "Study II",
+		"prerequisites": ["Study I"],
+		"uniques": ["[+15]% Strength <when attacking>","[+50]% XP gained from combat"],
+		"unitTypes": ["Magic"]
+	},	
+	{
+		"name": "Study III",
+		"prerequisites": ["Study II"],
+		"uniques": ["[+15]% Strength <when attacking>","[+50]% XP gained from combat"],
+		"unitTypes": ["Magic"]
+	},
+	{
+		"name": "Further Reach I",
+		"prerequisites": ["Study I"],
+		"uniques": ["[-30]% Strength <when attacking>","[+1] Range"],
+		"unitTypes": ["Magic"]
+	},
+	{
+		"name": "Further Reach II",
+		"prerequisites": ["Further Reach I"],
+		"uniques": ["[-20]% Strength <when attacking>","[+1] Range"],
+		"unitTypes": ["Magic"]
+	},
+	{
+		"name": "Further Reach III",
+		"prerequisites": ["Further Reach II"],
+		"uniques": ["[-10]% Strength <when attacking>","[+1] Range"],
+		"unitTypes": ["Magic"]
+	},
+	{
+		"name": "Charge atk I",
+		"prerequisites": ["Study II"],
+		"uniques": ["[+50]% Strength <when attacking> <costs [3] [Mana]> <for [3] turns>"],
+		"unitTypes": ["Magic"]
+	},
+
 ]
