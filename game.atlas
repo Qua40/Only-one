@@ -6,43 +6,43 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/AbsoluteUnits/Units/Mage Lv1
   rotate: false
-  xy: 0, 19
-  size: 78, 38
-  orig: 78, 38
+  xy: 0, 0
+  size: 78, 28
+  orig: 78, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mage Lv1
   rotate: false
-  xy: 0, 19
-  size: 78, 38
-  orig: 78, 38
+  xy: 0, 0
+  size: 78, 28
+  orig: 78, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Mage Lv1
   rotate: false
-  xy: 0, 19
-  size: 78, 38
-  orig: 78, 38
+  xy: 0, 0
+  size: 78, 28
+  orig: 78, 28
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/OnlyOne Lv1
   rotate: false
-  xy: 0, 57
-  size: 78, 38
-  orig: 78, 38
+  xy: 0, 46
+  size: 78, 24
+  orig: 78, 24
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/OnlyOne Lv1
   rotate: false
-  xy: 0, 57
-  size: 78, 38
-  orig: 78, 38
+  xy: 0, 46
+  size: 78, 24
+  orig: 78, 24
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/OnlyOne Lv1
   rotate: false
-  xy: 0, 57
-  size: 78, 38
-  orig: 78, 38
+  xy: 0, 46
+  size: 78, 24
+  orig: 78, 24
   offset: 0, 0
   index: -1
