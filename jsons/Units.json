@@ -51,4 +51,24 @@
 		"cost": 50
     "attackSound": "arrow"
 	},
+	{
+		"name": "Spellblade Lv1",
+		"unitType": "Magic",
+		"uniqueTo": "Legends in the Lore",
+		"movement": 4,
+    "strength": 5,
+		"uniques": ["Limited to [3] per Civilization","[-80]% maintenance costs"],
+		"cost": 90
+    "attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Phantom Blade",
+		"unitType": "Magic",
+		"uniqueTo": "Legends in the Lore",
+		"movement": 9,
+    "strength": 4,
+		"uniques": ["Limited to [12] per Civilization","[-110]% maintenance costs","Cannot be purchased","Can only attack [Military] units","Eliminates combat penalty for attacking over a river"],
+		"cost": 35
+    "attackSound": "nonmetalhit"
+	},
 ]
