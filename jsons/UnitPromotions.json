@@ -1,36 +1,37 @@
 [
 	{
 		"name": "Only",
-		"uniques": ["Uncapturable","[+12] HP when healing"]
+		"uniques": ["Uncapturable","[+1] HP when healing"]
 	},
 	{
 		"name": "Crossroad Armor",
-		"uniques": ["[+150]% Strength <vs cities> <when defending>","[+33]% Strength <vs [Military] units> <when defending>","Double movement in [All Road]", "[+50]% Strength <when fighting in [All Road] tiles>"]
+		"uniques": ["[+150]% Strength <vs cities> <when defending>","[+12]% Strength <vs [Military] units> <when defending>","Double movement in [All Road]", "[+35]% Strength <when fighting in [All Road] tiles>"]
 	},
 	{
 		"name": "Land King",
-		"uniques": ["Heals [20] damage if it kills a unit", "[This Unit] gains the [Hack and Slash] promotion <for [5] turns>"]
+		"uniques": ["Heals [20] damage if it kills a unit", "[This Unit] gains the [Hack and Slash] status for [3] turn(s) <upon defeating a [Military] unit>"]
 	},
 	{
 		"name": "Hack and Slash",
-		"uniques": ["[-60]% Strength <when defending>","[+3] additional attacks per turn","[6] Movement","[This Unit] heals [3] HP <upon damaging a [Wounded] unit>","[This Unit] loses the [Hack and Slash] status <for [10] turns>"]
+		"prerequisites": ["Land King"],
+		"uniques": ["[-60]% Strength <when defending>","[+3] additional attacks per turn","[6] Movement","[This Unit] heals [3] HP <upon damaging a [Military] unit>"]
 	},
 	{
-		"name": "XP +",
+		"name": "XP I",
 		"uniques": ["[+50]% XP gained from combat"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Magic"],
 	},
 	{
 		"name": "Mana Collect",
-		"uniques": ["Earn [16]% of killed [Wounded] unit's [Cost] as [Mana]"],
+		"uniques": ["Earn [10]% of killed [Military] unit's [Cost] as [Mana]","Instantly provides [3] [Mana] <with [3]% chance>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Magic"],
 	},
 	{
 		"name": "Self-Supply I",
-		"uniques": ["[+1] Unit Supply","[+1] units cost no maintenance"],
+		"uniques": ["[-45]% maintenance costs"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Magic"],
 	},
-	//unique promotions
+
 	{
 		"name": "Close Scars",
 		"uniques": ["[This Unit] heals [8] HP <for [20] turns>","Doing so will consume this opportunity to choose a Promotion"],
@@ -38,6 +39,7 @@
 		"innerColor": [59,235,43],
 		"outerColor": [13,152,28]
 	},
+		//unique promotions
 	{
 		"name": "Study I",
 		"uniques": ["[+15]% Strength <when attacking>","[+50]% XP gained from combat"],
@@ -74,10 +76,76 @@
 		"unitTypes": ["Magic"]
 	},
 	{
+		"name": "Artillery I",
+		"prerequisites": ["Further Reach III"],
+		"uniques": ["[-10]% Strength <when attacking>","[+1] Range"],
+		"unitTypes": ["Magic"]
+	},
+	{
+		"name": "Artillery II",
+		"prerequisites": ["Artillery I"],
+		"uniques": ["[-10]% Strength <when attacking>","[+1] Range"],
+		"unitTypes": ["Magic"]
+	},
+	{
+		"name": "Sniper",
+		"prerequisites": ["Artillery II","Accuracy II","Barrage II"],
+		"uniques": ["[+70]% Strength <when attacking>","[+3] Range","Only available <for units without [Supporter]>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Armored","Ranged Water","Magic"]
+	},
+	{
+		"name": "Supporter",
+		"prerequisites": ["Artillery II","Accuracy II","Barrage II"],
+		"uniques": ["[-50]% Strength <when attacking>","[+8] Range","Only available <for units without [Sniper]>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Armored","Ranged Water","Magic"]
+	},
+	{
 		"name": "Charge atk I",
 		"prerequisites": ["Study II"],
 		"uniques": ["[+20]% Strength <when attacking> <every [3] turns>"],
 		"unitTypes": ["Magic"]
 	},
-
+	{
+		"name": "Charge atk II",
+		"prerequisites": ["Charge atk I"],
+		"uniques": ["[+20]% Strength <when attacking> <every [2] turns>"],
+		"unitTypes": ["Magic"]
+	},
+	{
+		"name": "Charge atk III",
+		"prerequisites": ["Charge atk II"],
+		"uniques": ["[-33]% Strength <when attacking> <every [2] turns>", "[1] additional attacks per turn <every [2] turns>"],
+		"unitTypes": ["Magic"]
+	},
+//spells
+	{
+		"name": "Phantom Blades I",
+		"prerequisites": ["Mana Collect"],
+		"uniques": ["[This Unit] gains the [Phantom Blade Summon I] status for [3] turn(s) <costs [30] [Mana]>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Magic"]
+	},
+	{
+		"name": "Phantom Blade Summon I",
+		"prerequisites": ["Phantom Blades I"],
+		"uniques": ["[3] free [Phantom Blade] units appear"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Magic"]
+	},
+	{
+		"name": "Crystal Clear",
+		"prerequisites": ["Mana Collect"],
+		"uniques": ["[This Unit] gains the [Crystal Clear Spell] status for [2] turn(s) <costs [75] [Mana]>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Magic"]
+	},
+	{
+		"name": "Crystal Clear Spell",
+		"prerequisites": ["Crystal Clear"],
+		"uniques": ["[This Unit] gains the [Indirect Fire] promotion","[+5] Sight","Can see over obstacles","Damage taken from interception reduced by [+80]%",
+		"Withdraws before melee combat <with [100]% chance>", "[+9999]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Magic"]
+	},
+	//abilities
+	{
+		"name": "[Spellblade Lv1] ability",
+		"uniques": ["Free [Phantom Blade] appears <every [1] turns>"],
+	},
 ]
