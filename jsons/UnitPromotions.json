@@ -127,7 +127,7 @@
 	{
 		"name": "Phantom Blade Summon I",
 		"prerequisites": ["Phantom Blades I"],
-		"uniques": ["[3] free [Phantom Blade] units appear"],
+		"uniques": ["[3] free [Phantom Blade] units appear <upon turn start>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Magic"]
 	},
 	{
@@ -146,6 +146,6 @@
 	//abilities
 	{
 		"name": "[Spellblade Lv1] ability",
-		"uniques": ["Free [Phantom Blade] appears <every [1] turns>"],
+		"uniques": ["Free [Phantom Blade] appears <every [3] turns>"],
 	},
 ]
