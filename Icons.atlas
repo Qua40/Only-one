@@ -1,0 +1,13 @@
+
+Icons.png
+size: 156, 114
+format: RGBA8888
+filter: MipMapLinearLinear, Linear
+repeat: none
+ResourceIcons/Mana
+  rotate: false
+  xy: 79, 1220
+  size: 76, 78
+  orig: 76, 78
+  offset: 0, 0
+  index: -1
