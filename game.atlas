@@ -67,3 +67,24 @@ TileSets/HexaRealm/Units/Spellblade Lv1
   orig: 78, 38
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Phantom Blade
+  rotate: false
+  xy: 78, 76
+  size: 78, 38
+  orig: 78, 38
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Phantom Blade
+  rotate: false
+  xy: 78, 76
+  size: 78, 38
+  orig: 78, 38
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Phantom Blade
+  rotate: false
+  xy: 78, 76
+  size: 78, 38
+  orig: 78, 38
+  offset: 0, 0
+  index: -1
