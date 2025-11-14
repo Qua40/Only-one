@@ -5,8 +5,8 @@
 		"replaces": "Settler",
 		"uniqueTo": "Legends in the Lore",
 		"movement": 2,
-    "strength": 15,
-    "rangedStrength": 10,
+    "strength": 12,
+    "rangedStrength": 9,
 		"uniques": ["Can build [Land] improvements on tiles",
 			    "Can upgrade to [OnlyOne Lv2] <if [The Oracle] is constructed by anybody>",
 			    "[1] free [Mage Lv1] units appear <costs [15] [Mana]>",
@@ -18,8 +18,8 @@
 		"name": "OnlyOne Lv2",
 		"unitType": "Magic",
 		"movement": 3,
-		"strength": 24,
-		"rangedStrength": 18,
+		"strength": 18,
+		"rangedStrength": 12,
 		"uniques": ["Can build [Land] improvements on tiles",
 		 	    "[2] free [Mage Lv1] units appear <costs [15] [Mana]>",
 			    "Never appears as a Barbarian unit"],
@@ -45,10 +45,23 @@
 		"uniqueTo": "Legends in the Lore",
 		"movement": 2,
     "strength": 6,
-    "rangedStrength": 7,
-		"uniques": ["[-20]% Strength when stacked with [Wounded]",
-			    "Earn [15]% of the damage done to [Military] units as [Mana]"],
+    "rangedStrength": 6,
+		"uniques": [
+			    "Earn [15]% of the damage done to [Military] units as [Mana]","Never appears as a Barbarian unit"],
 		"cost": 50
+    "attackSound": "arrow"
+	},
+	{
+		"name": "Mage Lv2",
+		"unitType": "Magic",
+		"replaces": "Warrior",
+		"uniqueTo": "Legends in the Lore",
+		"movement": 2,
+    "strength": 9,
+    "rangedStrength": 11,
+		"uniques": [
+			    "Earn [20]% of the damage done to [Military] units as [Mana]","Never appears as a Barbarian unit"],
+		"cost": 220
     "attackSound": "arrow"
 	},
 	{
@@ -57,17 +70,28 @@
 		"uniqueTo": "Legends in the Lore",
 		"movement": 4,
     "strength": 5,
-		"uniques": ["Limited to [3] per Civilization","[-80]% maintenance costs"],
+		"uniques": ["[+3] Unit Supply","[+3] units cost no maintenance","Can carry [3] [Phantom Blade] units","Never appears as a Barbarian unit"],
 		"cost": 90
+    "attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Spellblade Lv2",
+		"unitType": "Magic",
+		"uniqueTo": "Legends in the Lore",
+		"movement": 4,
+    "strength": 10,
+		"uniques": ["[+5] Unit Supply","[+5] units cost no maintenance","Can carry [4] [Phantom Blade] units","Never appears as a Barbarian unit"],
+		"cost": 150
     "attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Phantom Blade",
 		"unitType": "Magic",
 		"uniqueTo": "Legends in the Lore",
-		"movement": 9,
+		"movement": 5,
     "strength": 4,
-		"uniques": ["Limited to [12] per Civilization","[-110]% maintenance costs","Cannot be purchased","Can only attack [Military] units","Eliminates combat penalty for attacking over a river"],
+		"uniques": ["[0] Sight","Cannot be purchased","Can only attack [Military] units","Eliminates combat penalty for attacking over a river","Can move after attacking","[0] XP gained from combat","Ignores Zone of Control",
+					"Never appears as a Barbarian unit"],
 		"cost": 35
     "attackSound": "nonmetalhit"
 	},
