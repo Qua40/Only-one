@@ -29,7 +29,7 @@
 		"tradeRequest": "Let's see about this.",
 
 		"outerColor": [20,20,120],
-		"innerColor": [5,100,200],
+		"innerColor": [30,175,205],
 		"uniqueName": "The Story So Far",
 		"uniques": [
 			"Comment [Unable to gain Settlers.]",
