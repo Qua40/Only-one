@@ -5,31 +5,32 @@
 	},
 	{
 		"name": "Crossroad Armor",
-		"uniques": ["[+150]% Strength <vs cities> <when defending>","[+12]% Strength <vs [Military] units> <when defending>","Double movement in [All Road]", "[+35]% Strength <when fighting in [All Road] tiles>"]
+		"uniques": ["[+150]% Strength <vs cities> <when defending>","[+12]% Strength <vs [Military] units> <when defending>","Double movement in [All Road]",
+			"[+35]% Strength <when fighting in [All Road] tiles>","Only available <upon ending a turn in a [All Road] tile>","Only Available <for [non-[{Phantom Blade}]] units>"]
 	},
 	{
 		"name": "Land King",
-		"uniques": ["Heals [20] damage if it kills a unit", "[This Unit] gains the [Hack and Slash] status for [3] turn(s) <upon defeating a [Military] unit>"]
+		"uniques": ["Heals [20] damage if it kills a unit", "[This Unit] gains the [Hack and Slash] status for [3] turn(s) <upon defeating a [Military] unit>","Only Available <for [non-[{Phantom Blade}]] units>"]
 	},
 	{
 		"name": "Hack and Slash",
 		"prerequisites": ["Land King"],
-		"uniques": ["[-60]% Strength <when defending>","[+3] additional attacks per turn","[6] Movement","[This Unit] heals [3] HP <upon damaging a [Military] unit>"]
+		"uniques": ["[-60]% Strength <when defending>","[+3] additional attacks per turn","[6] Movement","[This Unit] heals [3] HP <upon damaging a [Military] unit>","Only Available <for [non-[{Phantom Blade}]] units>"]
 	},
 	{
 		"name": "XP I",
 		"uniques": ["[+50]% XP gained from combat"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Magic"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Magic","Only Available <for [non-[{Phantom Blade}]] units>"],
 	},
 	{
 		"name": "Mana Collect",
 		"uniques": ["Earn [10]% of killed [Military] unit's [Cost] as [Mana]","Instantly provides [3] [Mana] <with [3]% chance>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Magic"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Magic","Only Available <for [non-[{Phantom Blade}]] units>"],
 	},
 	{
 		"name": "Self-Supply I",
 		"uniques": ["[-45]% maintenance costs"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Magic"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Magic","Only Available <for [non-[{Phantom Blade}]] units>"],
 	},
 
 	{
@@ -42,105 +43,105 @@
 		//unique promotions
 	{
 		"name": "Study I",
-		"uniques": ["[+15]% Strength <when attacking>","[+50]% XP gained from combat"],
+		"uniques": ["[+15]% Strength <when attacking>","[+50]% XP gained from combat","Only Available <for [non-[{Phantom Blade}]] units>"],
 		"unitTypes": ["Magic"]
 	},
 	{
 		"name": "Study II",
 		"prerequisites": ["Study I"],
-		"uniques": ["[+15]% Strength <when attacking>","[+50]% XP gained from combat"],
+		"uniques": ["[+15]% Strength <when attacking>","[+50]% XP gained from combat","Only Available <for [non-[{Phantom Blade}]] units>"],
 		"unitTypes": ["Magic"]
 	},	
 	{
 		"name": "Study III",
 		"prerequisites": ["Study II"],
-		"uniques": ["[+15]% Strength <when attacking>","[+50]% XP gained from combat"],
+		"uniques": ["[+15]% Strength <when attacking>","[+50]% XP gained from combat","Only Available <for [non-[{Phantom Blade}]] units>"],
 		"unitTypes": ["Magic"]
 	},
 	{
 		"name": "Further Reach I",
 		"prerequisites": ["Study I"],
-		"uniques": ["[-30]% Strength <when attacking>","[+1] Range"],
+		"uniques": ["[-30]% Strength <when attacking>","[+1] Range","Only Available <for [non-[{Phantom Blade}]] units>"],
 		"unitTypes": ["Magic"]
 	},
 	{
 		"name": "Further Reach II",
 		"prerequisites": ["Further Reach I"],
-		"uniques": ["[-20]% Strength <when attacking>","[+1] Range"],
+		"uniques": ["[-20]% Strength <when attacking>","[+1] Range","Only Available <for [non-[{Phantom Blade}]] units>"],
 		"unitTypes": ["Magic"]
 	},
 	{
 		"name": "Further Reach III",
 		"prerequisites": ["Further Reach II"],
-		"uniques": ["[-10]% Strength <when attacking>","[+1] Range"],
+		"uniques": ["[-10]% Strength <when attacking>","[+1] Range","Only Available <for [non-[{Phantom Blade}]] units>"],
 		"unitTypes": ["Magic"]
 	},
 	{
 		"name": "Artillery I",
 		"prerequisites": ["Further Reach III"],
-		"uniques": ["[-10]% Strength <when attacking>","[+1] Range"],
+		"uniques": ["[-10]% Strength <when attacking>","[+1] Range","Only Available <for [non-[{Phantom Blade}]] units>"],
 		"unitTypes": ["Magic"]
 	},
 	{
 		"name": "Artillery II",
 		"prerequisites": ["Artillery I"],
-		"uniques": ["[-10]% Strength <when attacking>","[+1] Range"],
+		"uniques": ["[-10]% Strength <when attacking>","[+1] Range","Only Available <for [non-[{Phantom Blade}]] units>"],
 		"unitTypes": ["Magic"]
 	},
 	{
 		"name": "Sniper",
 		"prerequisites": ["Artillery II","Accuracy II","Barrage II"],
-		"uniques": ["[+70]% Strength <when attacking>","[+3] Range","Only available <for units without [Supporter]>"],
+		"uniques": ["[+70]% Strength <when attacking>","[+3] Range","Only available <for units without [Supporter]>","Only Available <for [non-[{Phantom Blade}]] units>"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Armored","Ranged Water","Magic"]
 	},
 	{
 		"name": "Supporter",
 		"prerequisites": ["Artillery II","Accuracy II","Barrage II"],
-		"uniques": ["[-50]% Strength <when attacking>","[+8] Range","Only available <for units without [Sniper]>"],
+		"uniques": ["[-50]% Strength <when attacking>","[+8] Range","Only available <for units without [Sniper]>","Only Available <for [non-[{Phantom Blade}]] units>"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Armored","Ranged Water","Magic"]
 	},
 	{
 		"name": "Charge atk I",
 		"prerequisites": ["Study II"],
-		"uniques": ["[+20]% Strength <when attacking> <every [3] turns>"],
+		"uniques": ["[+20]% Strength <when attacking> <every [3] turns>","Only Available <for [non-[{Phantom Blade}]] units>"],
 		"unitTypes": ["Magic"]
 	},
 	{
 		"name": "Charge atk II",
 		"prerequisites": ["Charge atk I"],
-		"uniques": ["[+20]% Strength <when attacking> <every [2] turns>"],
+		"uniques": ["[+20]% Strength <when attacking> <every [2] turns>","Only Available <for [non-[{Phantom Blade}]] units>"],
 		"unitTypes": ["Magic"]
 	},
 	{
 		"name": "Charge atk III",
 		"prerequisites": ["Charge atk II"],
-		"uniques": ["[-33]% Strength <when attacking> <every [2] turns>", "[1] additional attacks per turn <every [2] turns>"],
+		"uniques": ["[-33]% Strength <when attacking> <every [2] turns>", "[1] additional attacks per turn <every [2] turns>","Only Available <for [non-[{Phantom Blade}]] units>"],
 		"unitTypes": ["Magic"]
 	},
 //spells
 	{
 		"name": "Phantom Blades I",
 		"prerequisites": ["Mana Collect"],
-		"uniques": ["[This Unit] gains the [Phantom Blade Summon I] status for [3] turn(s) <costs [30] [Mana]>"],
+		"uniques": ["[This Unit] gains the [Phantom Blade Summon I] status for [3] turn(s) <costs [30] [Mana]>","Only Available <for [non-[{Phantom Blade}]] units>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Magic"]
 	},
 	{
 		"name": "Phantom Blade Summon I",
 		"prerequisites": ["Phantom Blades I"],
-		"uniques": ["[3] free [Phantom Blade] units appear <upon turn start>"],
+		"uniques": ["[3] free [Phantom Blade] units appear <upon turn start>","Only Available <for [non-[{Phantom Blade}]] units>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Magic"]
 	},
 	{
 		"name": "Crystal Clear",
 		"prerequisites": ["Mana Collect"],
-		"uniques": ["[This Unit] gains the [Crystal Clear Spell] status for [2] turn(s) <costs [75] [Mana]>"],
+		"uniques": ["[This Unit] gains the [Crystal Clear Spell] status for [2] turn(s) <costs [75] [Mana]>","Only Available <for [non-[{Phantom Blade}]] units>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Magic"]
 	},
 	{
 		"name": "Crystal Clear Spell",
 		"prerequisites": ["Crystal Clear"],
-		"uniques": ["[This Unit] gains the [Indirect Fire] promotion","[+5] Sight","Can see over obstacles","Damage taken from interception reduced by [+80]%",
-		"Withdraws before melee combat <with [100]% chance>", "[+9999]% Strength <vs [Ranged] units> <when defending>"],
+		"uniques": ["[This Unit] gains the [Indirect Fire] promotion","[+5] Sight","Can see over obstacles","Damage taken from interception reduced by [+80]%","Only Available <for [non-[{Phantom Blade}]] units>",
+		"Withdraws before melee combat <with [50]% chance>", "[+99]% Strength <vs [Ranged] units> <when defending>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Magic"]
 	},
 	//abilities
