@@ -18,9 +18,9 @@
 		"neutralHello": "...",
 		"neutralLetsHearIt": "Want a trade?",
 		"neutralNo": "Uh, whatever...",
-		"neutralYes": "You have a lucky day, huh?",
+		"neutralYes": "Have a lucky day, huh?",
 
-		"hateHello": "Leave now.",
+		"hateHello": "Leave, now.",
 		"hateLetsHearIt": "How Interesting...",
 		"hateNo": "I knew it.",
 		"hateYes": "How unpredictable.",
@@ -37,14 +37,12 @@
 			"[+30]% Strength <vs [City-States]>",
 			"Comment [All City-States know exactly what you are.]",
 			"[-90]% City-State Influence degradation <hidden from users>",
-			"Resting point for Influence with City-States is increased by [80] <hidden from users>",
+			"Resting point for Influence with City-States is increased by [10] <hidden from users>",
 			"[+333]% maintenance costs <for [All] units>",
 			"[All] units gain the [Only] promotion",
-			"[non-[Air]] units gain the [Crossroad Armor] promotion",
-			"[Melee] units gain the [Land King] promotion",
 			"[+150]% Strength <for [All] units> <when defending>"],
 		"cities": ["Excalibur", "Cruise", "Crossbow", "Mace", "Spear", "Dagger", "Shield", "Scythe",
 			"Saber", "Longbow", "Hammer", "Scepter", "Polearm", "Knuckle", "Omega"],
-		"spyNames": ["Walker", "Peasent", "Human", "Mortal", "People", "Tourist", "Watcher", "Civilian", "Stranger", "Spotter"]
+		"spyNames": ["Peasent", "Human", "Mortal", "People", "Tourist", "Watcher", "Civilian", "Stranger", "Spotter"]
 	}
 ]
