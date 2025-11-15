@@ -138,7 +138,7 @@
 //spells
 	{
 		"name": "Phantom Blades I",
-		"prerequisites": ["Mana Collect"],
+		"prerequisites": ["Mana Collect I"],
 		"uniques": ["[This Unit] gains the [Phantom Blade Summon I] status for [3] turn(s) <costs [30] [Mana]>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Magic"]
 	},
@@ -150,7 +150,7 @@
 	},
 	{
 		"name": "Oversight",
-		"prerequisites": ["Mana Collect"],
+		"prerequisites": ["Mana Collect I"],
 		"uniques": ["[This Unit] gains the [Crystal Clear Spell] status for [2] turn(s) <costs [75] [Mana]>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Magic"]
 	},
@@ -158,7 +158,60 @@
 		"name": "Oversight Spell",
 		"prerequisites": ["Crystal Clear"],
 		"uniques": ["[This Unit] gains the [Indirect Fire] promotion","[+1] Sight","Can see over obstacles","Damage taken from interception reduced by [+30]%",
-		"Withdraws before melee combat <with [10]% chance>", "[+45]% Strength <vs [Ranged] units> <when defending>"],
+		"Withdraws before melee combat <with [10]% chance>", "[+45]% Strength <vs [Ranged] units> <when defending>","Reveal up to [8] [unimproved] within a [10] tile radius"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Magic"]
+	},
+	{
+		"name": "Phantom Blades II",
+		"prerequisites": ["Mana Collect I"],
+		"uniques": ["[This Unit] gains the [Phantom Blade Summon I] status for [6] turn(s) <costs [80] [Mana]>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Magic"]
+	},
+	{
+		"name": "Phantom Blade Summon I",
+		"prerequisites": ["Phantom Blades I"],
+		"uniques": ["[1] free [Phantom Blade] units appear <upon turn start>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Magic"]
+	},
+	{
+		"name": "Recovery",
+		"prerequisites": ["Mana Collect II"],
+		"uniques": ["[This Unit] gains the [Recovery Spell] status for [5] turn(s) <costs [35] [Mana]>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Magic"]
+	},
+	{
+		"name": "Recovery Spell",
+		"prerequisites": ["Recovery"],
+		"uniques": ["[This Unit] heals [18] HP","Instantly gain [1] [Mana]"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Magic"]
+	},	
+	{
+		"name": "Guilt of Sins",
+		"prerequisites": ["Mana Collect II"],
+		"uniques": ["[This Unit] gains the [Guilt of Sins Spell] status for [1] turn(s) <costs [66] [Mana]>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Magic"]
+	},
+	{
+		"name": "Guilt of Sins Spell",
+		"prerequisites": ["Guilt of Sins"],
+		"uniques": ["[This Unit] takes [25] damage <[5] times>","[Hostile] units gain the [Nightmare] promotion"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Magic"]
+	},
+	{
+		"name": "Nightmare",
+		"uniques": ["[This Unit] takes [3] damage","[-66]% Strength","[This Unit] loses the [Nightmare] promotion <with [3]% chance>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Magic"]
+	},	
+	{
+		"name": "Advance",
+		"prerequisites": ["Mana Collect II"],
+		"uniques": ["[This Unit] gains the [Advance Spell] status for [15] turn(s) <costs [40] [Mana]>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Magic"]
+	},
+	{
+		"name": "Advance Spell",
+		"prerequisites": ["Advance"],
+		"uniques": ["Gain [1]-[3] [Gold]","Gain [1]-[3] [Science]","Gain [1]-[3] [Culture]","Gain [1]-[3] [Faith]","Gain [1]-[3] [Production]"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Magic"]
 	},
 	//abilities
