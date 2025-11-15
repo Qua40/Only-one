@@ -8,7 +8,7 @@
     "strength": 12,
     "rangedStrength": 9,
 		"uniques": ["Can build [Land] improvements on tiles",
-			    "Can upgrade to [OnlyOne Lv2] <if [The Oracle] is constructed by anybody>",
+			    "Can upgrade to [OnlyOne Lv2] <with the [Study III] promotion> <removing the [Study III] promotion>",
 			    "[1] free [Mage Lv1] units appear <costs [15] [Mana]>",
 			    "Never appears as a Barbarian unit"],
 		"cost": 70
