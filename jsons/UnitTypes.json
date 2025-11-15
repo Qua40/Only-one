@@ -2,5 +2,9 @@
     {
         "name": "Magic",
         "movementType": "Land"
+    },
+    {
+        "name": "MagicFlying",
+        "movementType": "Land"
     }
 ]
